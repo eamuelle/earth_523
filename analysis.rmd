@@ -6,14 +6,22 @@ output: html_document
 
 # This is the first header I am making
 
-This is me making a **list**
-*Things on a list
-*Look at this thing on a list
-+wow more things on a list
-+bonus thing
+This is me making a **list**  
+*Things on a list  
+*Look at this thing on a list  
+  +wow more things on a list  
+  +bonus thing
 
 http://www.google.com
 
-Wow a quote:
->This is such a nice quote I am
+Wow a quote:  
+>This is such a nice quote I am  
 >really impressed by this quote.
+
+```{r cars_analysis, echo=FALSE}
+plot(cars)
+
+max_speed <-max(cars$speed)
+```
+
+The average speed of cars is `r mean(cars$speed)`. The maximum speed is `r max_speed`.

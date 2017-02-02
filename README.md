@@ -2,7 +2,7 @@
 
 Date: Feb. 2nd, 2017  
 Author: Emmi Mueller  
-Contents: RMarkdown analysis from `analysis.rmd
+Contents: RMarkdown analysis from `analysis.rmd`
 
 This folder includes notes and files from git and $RMarkdown workshop.
 
